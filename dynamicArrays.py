@@ -35,7 +35,6 @@ class DynamicArray(object):
         self.A[self.n]=element
         self.n +=1
 
-    #uses the technique of amortization to increase array size
     def _resize(self,new_capacity):
 
         #make a new array

@@ -17,6 +17,9 @@ class queue(object):
     def peek(self):
         return self.items[0]
 
+    def size(self):
+        return len(self.items)
+
 class TestQueue(object):
 
     def Client(self):
@@ -25,6 +28,7 @@ class TestQueue(object):
         s.push(1)
         s.push(2)
         assert(s.isEmpty()==False)
+        assert(s.size()==2)
         assert(s.peek()==1)
         assert(s.serve()==1)
         assert(s.isEmpty()==False)

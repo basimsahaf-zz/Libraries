@@ -32,5 +32,5 @@ class TestStack(object):
         assert(s.size()==2)
         print("Implementation is sorrect")
 
-s = TestStack()
-s.TestClient()
+stackObject = TestStack()
+stackObject.TestClient()

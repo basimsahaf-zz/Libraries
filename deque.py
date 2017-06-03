@@ -1,5 +1,5 @@
 """ A deque or a 'doubly ended queue' is a queue where you can add and remove from both ends."""
-class deque:
+class deque(object):
 
     def __init__(self):
         self.items = []
@@ -40,7 +40,7 @@ class deque:
     		print 'Empty'
     	print("--------")
 
-class TestingDeque:
+class TestingDeque(object):
 
     def Client(self):
         s = deque()
